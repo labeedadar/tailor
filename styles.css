@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.custom-bg {
+    background-color: #9c29b3;
+}
+.custom-bg .navbar-brand,
+.custom-bg .nav-link {
+    color: #ffffff;
+}
+.custom-bg .nav-link:hover {
+    color: #adb5bd;
+}
+
+/* Home Page */
+@media only screen and (max-width: 600px) {
+    .mb-center {
+        margin: auto;
+        /* text-align: center; */
+    }
+}
+
+
+.description {
+    text-align: center;
+}
+
+.btn {
+    background-color: #9c29b3;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-align: center;
+} 
+
+.btn:hover {
+    background-color: #7a1f8a;
+}
+
+
+.copyright-link {
+    text-decoration: none;
+    font-weight: bold;
+}
+
